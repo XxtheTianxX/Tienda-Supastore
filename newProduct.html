@@ -1,0 +1,46 @@
+<!DOCTYPE html:5>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuevo Producto</title>
+    <link rel="icon" href="C:\Desarrollo Web I\Tienda SupaStore\images\logoApp.svg" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-main">
+                <a href="/index.html" class="logo">
+                    <img src="C:\Desarrollo Web I\Tienda SupaStore\images\logoApp.svg" alt="logo" width="200">
+                </a>
+                <ul class="menu">
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Carrito</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="./newProduct.html">Nuevo Producto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Nuevo Producto</h1>
+        <form action="#" method="post" class="form-horizontal">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required placeholder="Nombre">
+            </div>
+            <div class="form-group">
+                <label for="precio">Precio:</label>
+                <input type="number" id="precio" name="precio" min="0" step="0.01" required placeholder="Precio">
+            </div>
+            <div class="form-group">
+                <label for="inventario">Inventario:</label>
+                <input type="number" id="inventario" name="inventario" min="0" required placeholder="Inventario">
+            </div>
+            <button type="submit" class="btn-add-product">Agregar Producto</button>
+        </form>
+    </div>
+</body>
+</html>
