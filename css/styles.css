@@ -219,3 +219,71 @@ body {
 .btn-add-product:hover {
   background-color: #0056b3;
 }
+
+/* Estilos para lista de productos */
+.product-list {
+  padding: 20px;
+  margin-top: 20px; /* Añadir margen arriba de la lista */
+}
+
+.product-item {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr 1fr 1fr;
+  gap: 10px;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.product-header {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr 1fr 1fr;
+  gap: 10px;
+  align-items: center;
+  padding: 10px 0;
+  margin-bottom: 10px; /* Separación entre la cabecera y la lista */
+}
+
+.product-header span {
+  text-align: center;
+}
+
+.product-image {
+  width: 100%;
+  max-width: 100px;
+  border-radius: 8px;
+}
+
+.product-name {
+  font-weight: bold;
+  color: #333333;
+}
+
+.product-price,
+.product-quantity,
+.product-total {
+  text-align: center;
+}
+
+.product-total {
+  font-weight: bold;
+  color: #28a745;
+}
+
+.container {
+  text-align: center; /* Centrar contenido del contenedor */
+}
+
+.container h1 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0; /* Eliminar margen superior predeterminado */
+  text-align: center;
+  display: block;
+  color: #007bff;
+  font-size: 2rem; /* Tamaño del título */
+  margin-bottom: 10px; /* Espacio debajo del título */
+}
